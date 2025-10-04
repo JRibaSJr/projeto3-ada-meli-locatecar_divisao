@@ -25,7 +25,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        seedDados();
+        //seedDados();
 
         while (true) {
             exibirMenuPrincipal();
@@ -277,9 +277,9 @@ public class Main {
         veiculoService.cadastrarVeiculo(new Veiculo("BBB-0B00", "MODELO2", "FABRICANTE2", MEDIO));
         veiculoService.cadastrarVeiculo(new Veiculo("CCC-0C00", "MODELO3", "FABRICANTE3", SUV));
 
-        clienteService.cadastrarCliente(new PessoaFisica("CLIENTE PF1", "pf1@cliente.com.br", "1199999-9999", "999.999.999-99"));
-        clienteService.cadastrarCliente(new PessoaFisica("CLIENTE PF2", "pf2@cliente.com.br", "1188888-9999", "888.888.888-88"));
-        clienteService.cadastrarCliente(new PessoaFisica("CLIENTE PF3", "pf3@cliente.com.br", "1177777-7777", "777.777.777-77"));
+        clienteService.cadastrarCliente(new PessoaFisica("CLIENTE PF1", "pf1@cliente.com.br", "1199999-9999", "99999999999"));
+        clienteService.cadastrarCliente(new PessoaFisica("CLIENTE PF2", "pf2@cliente.com.br", "1188888-9999", "88888888888"));
+        clienteService.cadastrarCliente(new PessoaFisica("CLIENTE PF3", "pf3@cliente.com.br", "1177777-7777", "77777777777"));
 
         clienteService.cadastrarCliente(new PessoaJuridica("CLIENTE PJ1", "pj1@cliente.com.br", "1199999-9999", "55.555.555.0001-55"));
         clienteService.cadastrarCliente(new PessoaJuridica("CLIENTE PJ2", "pj2@cliente.com.br", "1188888-8888", "44.444.444.0001-44"));
