@@ -2,7 +2,11 @@ package team3.domain.model;
 
 import team3.domain.enums.TipoVeiculo;
 
-public class Veiculo {
+import java.io.Serializable;
+
+public class Veiculo implements Serializable {
+    private static final long serialVersionUID = 1L;
+    
     private final String placa;
     private String modelo;
     private String fabricante;
